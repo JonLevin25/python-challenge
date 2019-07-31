@@ -8,7 +8,7 @@ import re
 #     with open(f'{last_challange_dir}/nothings_1', 'r') as file:
 #         new.write(file.read())
 
-"""
+r"""
 Hypotheses:
 1. all pickle bstrings start with b'\x80\x0<V>' where <V> is the version num
 2. pickle bstrings (entire) end differently depending on the root object
