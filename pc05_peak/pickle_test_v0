@@ -1,0 +1,8 @@
+"{}"	->	b'V{}\np0\n.'
+"a"	->	b'Va\np0\n.'
+"asflkjnqwrt"	->	b'Vasflkjnqwrt\np0\n.'
+{'a': 'a'}	->	b'(dp0\nVa\np1\ng1\ns.'
+{1: 1}	->	b'(dp0\nI1\nI1\ns.'
+[1, 2, 3]	->	b'(lp0\nI1\naI2\naI3\na.'
+{'a': [1, 2, 3]}	->	b'(dp0\nVa\np1\n(lp2\nI1\naI2\naI3\nas.'
+['a', 'b']	->	b'(lp0\nVa\np1\naVb\np2\na.'
